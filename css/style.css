@@ -1,1 +1,63 @@
-
+body {
+    font-family: Tahoma;
+    background: white;
+    
+}
+.wrapper {
+    display: block;
+    width: 420px;
+    margin: 100px auto;
+  }
+.MainText {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 4px;
+    border: none;
+    font-size: 80px;
+    height: 80px;
+    width: 100px;
+    text-align: right;
+    background: #DEFDFF;
+}
+.TimerWrapp{
+    box-sizing: border-box;
+    margin: 0 auto 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #DEFDFF;
+  }
+.SplitText{
+    width: 30px;
+}
+.OtherText{
+    font-size: 36px;
+    font-weight: 700;
+    height: 30px;
+    border: none;
+    background-color: #DEFDFF;
+    margin: -30px 10px 10px 10px;
+}
+.OtherText input{
+    
+    display: inline;
+    width: 100%;
+    text-align: right;
+    background: #DEFDFF;
+    border: none;
+    
+}
+.btn__left{
+    width: 100px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: #1ABA3D;
+}
+.btn__right{
+    float: right;
+    width: 100px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: #AD0A13;
+}
